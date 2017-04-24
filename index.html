@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+	<title>Formulario de Datos</title>
+</head>
+<body>
+
+<div align="center">
+<h1 style="color:#FF0040 ;">Formulario de Datos</h1>
+<script></script>
+<form>
+  <table width="400">
+
+    <label><br>Nombre</br><input type="text" required></td></tr></label></br>
+	<label><br>Apellido</br><input type="text" required></td></tr></label></br>		
+    <label><br>Teléfono</br><input type="tel" required pattern="[0-9]{9}"></td></tr></label></br>
+    <label><br>Escoge tu carro para continuar</td></tr></label></br><p>
+            <select name="carros">
+            <option value="Escoge" selected>Escoge tu Carro</option>
+                <option value="marca1">Audi</option>
+                <option value="marca2">Toyota</option>
+                <option value="marca3">Chevrolet</option>
+                <option value="marca4">Mercedes</option>
+        </select><p></p>
+
+    <label><br>E-mail</br><input type="email" required></td></tr></label></br>
+
+    <label><br>Crea tu Contraseña</td></tr></label></br>
+    <input type="password" required pattern=".{6,}" title="6 o más caracteres"></td></tr></br>
+   	<label><br><input type="submit"> <input type="reset"></td></tr>
+
+  <table>
+</form>
+</body>
+</html>
